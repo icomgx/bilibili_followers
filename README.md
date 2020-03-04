@@ -1,6 +1,6 @@
 # bilibili_followers
-# bilibili粉丝系统(粉丝关注弹幕，粉丝数，外接API服务，包括以后的BI Cube（B站魔方）服务等等...) 
-# B站主页 https://space.bilibili.com/23106193 有想法和建议欢迎私信我
+## bilibili粉丝系统(粉丝关注弹幕，粉丝数，外接API服务，包括以后的BI Cube（B站魔方）服务等等...) 
+## B站主页 https://space.bilibili.com/23106193 有想法和建议欢迎私信我
 ## 开发工具：pycharm 环境：Anaconda3（python 3.7.4）  
 ## 使用库（暂时）： Flask，requests  
 

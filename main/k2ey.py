@@ -9,5 +9,4 @@ def create_keys():
 
 if __name__ == '__main__':
     key = create_keys()
-    print(key
-          )
+    print(key)

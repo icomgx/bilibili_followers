@@ -1,3 +1,4 @@
+# coding: utf-8
 from flask import Flask, request, make_response
 from main import error
 import time
@@ -34,4 +35,4 @@ def test():
 
 @app.route('/barrage_display')
 def barrage_display():
-    return app.send_static_file('index.html')
+    return app.

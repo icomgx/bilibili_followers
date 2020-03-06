@@ -1,7 +1,7 @@
-from main import controller
-import config
+# coding: utf-8
 
-app = controller.app
+from main.controller import app
+import config
 
 
 if __name__ == '__main__':

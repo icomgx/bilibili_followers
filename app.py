@@ -1,9 +1,7 @@
 # coding: utf-8
 
-from main import controller
+from main.controller import app
 import config
-
-app = controller.app
 
 
 if __name__ == '__main__':

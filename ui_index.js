@@ -37,6 +37,7 @@ function createWindow() {
     // ]
     // let menu = Menu.buildFromTemplate(template)
     // Menu.setApplicationMenu(menu)
+    Menu.setApplicationMenu(null)
     win.webContents.openDevTools()
         // 加载页面
     win.loadFile('pages/index.html')

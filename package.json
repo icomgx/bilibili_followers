@@ -1,26 +1,26 @@
 {
-  "name": "bilibili_followers",
-  "version": "1.0.0",
-  "description": "",
-  "main": "ui_index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/icomgx/bilibili_followers.git"
-  },
-  "author": "fred913",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/icomgx/bilibili_followers/issues"
-  },
-  "homepage": "https://github.com/icomgx/bilibili_followers#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "electron": "^8.0.3",
-    "jquery": "^3.4.1",
-    "jsexecpy": "^1.1.0"
-  }
+    "name": "bilibili_followers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ui_index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/icomgx/bilibili_followers.git"
+    },
+    "author": "fred913 & icomgx",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/icomgx/bilibili_followers/issues"
+    },
+    "homepage": "https://github.com/icomgx/bilibili_followers#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "electron": "^8.0.3",
+        "jquery": "^3.4.1",
+        "jsexecpy": "^1.1.0"
+    }
 }

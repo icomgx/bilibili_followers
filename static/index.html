@@ -25,7 +25,7 @@
 
 <body onload="add()">
 
-    <div style="background:url(static/static/img/bililogo3.jpg);background-size:cover; height:100%; width: 100%;">
+    <div style="background:url(static/img/bililogo3.jpg);background-size:cover; height:100%; width: 100%;">
 
 
 
@@ -34,14 +34,14 @@
 
 
     <!-- JS dependencies -->
-    <script type="text/javascript" src="static/static/js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="static/static/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="static/static/js/tinycolor-0.9.15.min.js"></script>
-    <script type="text/javascript" src="dist/js/jquery.barrager.min.js"></script>
-    <script type="text/javascript" src="static/static/syntaxhighlighter/scripts/shCore.js"></script>
-    <script type="text/javascript" src="static/static/syntaxhighlighter/scripts/shBrushJScript.js"></script>
-    <script type="text/javascript" src="static/static/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-    <script type="text/javascript" src="static/static/pick-a-color/js/pick-a-color-1.2.3.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/tinycolor-0.9.15.min.js"></script>
+    <script type="text/javascript" src="static/dist/js/jquery.barrager.min.js"></script>
+    <script type="text/javascript" src="static/syntaxhighlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="static/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="static/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="static/pick-a-color/js/pick-a-color-1.2.3.min.js"></script>
     <script type="text/javascript">
 
         String.prototype.format = function (args) {
@@ -79,20 +79,7 @@
 
             SyntaxHighlighter.all();
             $(".pick-a-color").pickAColor();
-
-            var default_item = {
-                'img': 'static/heisenberg.png',
-                'info': '弹幕文字信息',
-                'href': 'http://www.yaseng.org',
-                'close': true,
-                'speed': 6,
-                'bottom': 70,
-                'color': '#fff',
-                'old_ie_color': '#000000'
-            };
-            var item = { 'img': 'static/static/img/heisenberg.png', 'href': 'https://icomgx.cn', 'info': '粉丝弹幕系统启动成功...' };
-
-            $('#barrager-code').val(barrager_code.format(default_item));
+            var item = { 'img': 'static/img/l1.jpg', 'href': 'https://icomgx.cn', 'info': '粉丝弹幕系统启动成功...' };
 
 
             $('body').barrager(item);
@@ -210,7 +197,7 @@
         }
 
         function add() {
-            var looper_time = 1 * 1000;
+            var looper_time = 0.5 * 1000;
             //是否首次执行
             var run_once = true;
             do_barrager();
@@ -222,7 +209,7 @@
                     run_once = false;
                 }
                 //获取
-                $.getJSON('/api/barrage', function (data) {
+                $.getJSON('/api/barrage/display', function (data) {
                     //是否有数据
                     if (data.info) {
 

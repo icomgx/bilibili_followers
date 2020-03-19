@@ -21,14 +21,15 @@ Gitee：https://gitee.com/ikcty/bilibili_followers
 ##### d2ta/ 为数据库存放目录
 
 ##### main/ 各个功能模块存放目录
-​	/b2il.py B站主要功能模块
-​	/b2rrage.py 弹幕功能功能模块
-​	/controller.py 主控制器模块
-​	/d2evice.py 设备使用功能模块
-​	/e2xternal.py 外部API功能模块
-​	/error.py 错误信息功能模块
-​	/k2ey.py 密钥功能模块
-​	/models.py 数据库操作功能模块
+​	/b2il.py B站主要功能模块   
+​	/b2rrage.py 弹幕功能功能模块    
+​	/controller.py 主控制器模块   
+​	/d2evice.py 设备使用功能模块    
+​	/e2xternal.py 外部API功能模块     
+​	/error.py 错误信息功能模块  
+​	/k2ey.py 密钥功能模块     
+​	/models.py 数据库操作功能模块    
+
 
 ##### static/ 静态资源存放目录
 

@@ -19,7 +19,7 @@
     "homepage": "https://github.com/icomgx/bilibili_followers#readme",
     "dependencies": {},
     "devDependencies": {
-        "electron": "^8.0.3",
+        "electron": "^11.5.0",
         "jquery": "^3.4.1",
         "jsexecpy": "^1.1.0"
     }
